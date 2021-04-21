@@ -6,13 +6,19 @@ The project uses Streamlit front-end which inputs the recipient's address(es),su
 Functionalities:
 
 Mail both:
+
 1.Text
+
 2.Attachments(ONLY IMAGE FILES->.jpg,.jpeg,.png)
 
 Test cases:
+
 ->1 recipient with no attachment(s)
+
 ->1 recipient with attachment(s)
+
 ->multiple recipients without any attachment
+
 ->multiple recipients with attachments
 
 The above can be successfully achieved with the given code!
