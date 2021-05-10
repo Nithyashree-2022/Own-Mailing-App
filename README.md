@@ -11,7 +11,7 @@ Mail both:
 
 1.Text
 
-2.Attachments(IMAGE FILES,PDF FILES AND A COMBO OF BOTH!)
+2.Attachments(IMAGE FILES ONLY)
 
 Test cases:
 
@@ -23,17 +23,13 @@ Test cases:
 
 ->multiple recipients with attachments
 
-and/or HTML mail with all of the above four test cases.
-
 The above can be successfully achieved with the given code-"Implementation of SMTP...."
 
-Further,the "Extended MyMail" file has the supports mailing pdfs and HTML mails too along with images and plain-text.
+MIMEMultipart is used to mail plain-text and image attachments.
 
-It again supports both single and multiple recipients with an option to include the HTML mail.
+NOTE:
 
-EmailMessage() is used to mail pdfs and HTML mails.
-
-MIMEMultipart was used in the first file to mail plain-text and image attachments.
+List of recipients must be comma-separated ONLY
 
 
 
