@@ -9,11 +9,11 @@ Mail both:
 
 1.Text
 
-2.Attachments(ONLY IMAGE FILES->.jpg,.jpeg,.png)
+2.Attachments(IMAGE FILES,PDF FILES AND A COMBO OF BOTH!)
 
 Test cases:
 
-->1 recipient with no attachment(s)
+->1 recipient with no attachment(s) 
 
 ->1 recipient with attachment(s)
 
@@ -21,4 +21,20 @@ Test cases:
 
 ->multiple recipients with attachments
 
-The above can be successfully achieved with the given code!
+and/or HTML mail with all of the above four test cases.
+
+The above can be successfully achieved with the given code-"Implementation of SMTP...."
+
+Further,the "Extended MyMail" file has the supports mailing pdfs and HTML mails too along with images and plain-text.
+
+It again supports both single and multiple recipients with an option to include the HTML mail.
+
+EmailMessage() is used to mail pdfs and HTML mails.
+
+MIMEMultipart was used in the first file to mail plain-text and image attachments.
+
+NOTE:
+
+While executing Extended MyMail on colab,the value error in streamlit can be ignored for we still get the desired mail just perfectly!!!
+
+
