@@ -35,8 +35,6 @@ EmailMessage() is used to mail pdfs and HTML mails.
 
 MIMEMultipart was used in the first file to mail plain-text and image attachments.
 
-NOTE:
 
-While executing Extended MyMail on colab,the value error in streamlit can be ignored for we still get the desired mail just perfectly!!!
 
 
